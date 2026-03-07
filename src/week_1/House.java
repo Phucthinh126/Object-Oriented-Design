@@ -6,24 +6,29 @@ public class House {
     private String houseName;
     private ArrayList<Room> listRoom;
 
-    public House(String houseName, ArrayList<Room> listRoom) {
+    public House(String houseName) {
         this.houseName = houseName;
-        this.listRoom = listRoom;
+        this.listRoom = new ArrayList<>();
     }
 
-    public void setHouseName(String houseName) {
-        this.houseName = houseName;
-    }
 
-    public void setListRoom(ArrayList<Room> listRoom) {
-        this.listRoom = listRoom;
-    }
 
-    public int getTotalRoom(){
+    public  void addRoom(Room room){
+        listRoom.add(room);
+    }
+    public int getTotalRooms(){
         int total = 0;
         for (Room room : listRoom) {
             total ++;
         }
         return total;
+    }
+
+    public ArrayList<Room> getRooms() {
+        return listRoom;
+    }
+
+    public String getHouseName() {
+        return houseName;
     }
 }
