@@ -1,0 +1,3 @@
+## RelationShip
+#Association: một Object sử dụng một Object khác hoặc sử dụng một Function/Method trong Object đó. Là mối quan hệ giữa
+các Objects khi một Object có một hoặc nhiều References đến các Objects khác.
