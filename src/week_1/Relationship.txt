@@ -1,9 +1,11 @@
 ## RelationShip
 #Association: một Object sử dụng một Object khác hoặc sử dụng một Function/Method trong Object đó. Là mối quan hệ giữa các Objects khi một Object có một hoặc nhiều References đến các Objects khác.
-- Type:
+$-Type:
    * UniDirectional: chỉ 1 class biết và liên kêt với class còn lại, chiều còn lại thì không. (class student với class LibraryCard)
    * Bidirectional: hai class biết nhau và tương tác với nhau.
 - Composition: một object liên kết chặt với một object khác, nếu đối tượng cha bị hủy thì đối tượng con cũng mất theo.
  + Có thể có quan hệ ( 1 - 1 ), ( N - 1 )
 - Aggregation: các liên kết giữa các object không bị ràng buộc chặt như compostion, khi đối tượng cha bị xóa bỏ đối tượng con vẫn có thể tồn tại đọc lập.
  + Có thể có quan hệ ( 1 - 1 ), ( N - 1 ), ( 1 - N ), ( N - 1 ), ( N - N )
+- Dependence: biểu diễn quan hệ lớp này phụ thuộc vào lớp khác, 1 lớp sẽ phụ thuộc vào lớp khác để thực hiện 1 chức năng nào đó
+              Class A sử dụng class B, nhưng không sở hữu lâu dài object của class B, B thay đổi có thể ảnh hưởng đến A.
