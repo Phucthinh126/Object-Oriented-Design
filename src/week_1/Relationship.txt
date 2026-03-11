@@ -14,4 +14,7 @@ $-Type:
    + Giá trị trả về: Lớp A có một phương thức trả về một Object của lớp B.
    + Phương thức static: lớp A gọi đến phương thức static của lớp B.
    + Lớp A sử dụng các hằng số được định nghĩa trong lớp B.
+- Realization(Quan hệ thực hiện hóa): quan hệ giữa một interface và một class (hiện thực cụ thể) nơi class cam kết thực hiện tất cả hành vi được định nghĩa trong interface
+   + ký hiệu |  interface  | <|----------- | implement |
+   + Class phải implement tất cả các method của interface
 
