@@ -9,3 +9,6 @@ $-Type:
  + Có thể có quan hệ ( 1 - 1 ), ( N - 1 ), ( 1 - N ), ( N - 1 ), ( N - N )
 - Dependence: biểu diễn quan hệ lớp này phụ thuộc vào lớp khác, 1 lớp sẽ phụ thuộc vào lớp khác để thực hiện 1 chức năng nào đó
               Class A sử dụng class B, nhưng không sở hữu lâu dài object của class B, B thay đổi có thể ảnh hưởng đến A.
+   + Biến cục bộ: Lớp A khởi tạo hoặc sử dụng đối tượng của lớp B bên trong thân của một phương thức.
+   + Tham số phương thức: Lớp A có một method nhận object của lớp B làm đầu vào.
+   + Giá trị trả về: Lớp A có một phương thức trả về một Object của lớp B.
