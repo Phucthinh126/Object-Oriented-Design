@@ -4,20 +4,20 @@ import java.util.ArrayList;
 
 public class Institute {
     private String instituteName;
-    private ArrayList<Deparment> listDeparmet;
+    private ArrayList<DeparmentDemo> listDeparmet;
 
     public Institute(String instituteName) {
         this.instituteName = instituteName;
         this.listDeparmet = new ArrayList<>();
     }
 
-    public void addDepartment(Deparment department) {
+    public void addDepartment(DeparmentDemo department) {
         listDeparmet.add(department);
     }
 
     public int getTotalStudent() {
         int total = 0;
-        for (Deparment deparment : listDeparmet) {
+        for (DeparmentDemo deparment : listDeparmet) {
             ArrayList<Student> listStudent = deparment.getListStudent();
             for (Student student : listStudent) {
                 total++;

@@ -12,3 +12,6 @@ $-Type:
    + Biến cục bộ: Lớp A khởi tạo hoặc sử dụng đối tượng của lớp B bên trong thân của một phương thức.
    + Tham số phương thức: Lớp A có một method nhận object của lớp B làm đầu vào.
    + Giá trị trả về: Lớp A có một phương thức trả về một Object của lớp B.
+   + Phương thức static: lớp A gọi đến phương thức static của lớp B.
+   + Lớp A sử dụng các hằng số được định nghĩa trong lớp B.
+

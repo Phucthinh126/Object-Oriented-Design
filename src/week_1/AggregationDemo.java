@@ -11,11 +11,11 @@ public class AggregationDemo {
         // Creating Department object with a Students list
         // using Aggregation (Department "has" students)
 
-        Deparment sec = new Deparment("SEC");
+        DeparmentDemo sec = new DeparmentDemo("SEC");
         sec.addStudent(s1);
         sec.addStudent(s2);
 
-        Deparment ev = new Deparment("EV");
+        DeparmentDemo ev = new DeparmentDemo("EV");
         ev.addStudent(s4);
         ev.addStudent(s3);
 

@@ -2,11 +2,11 @@ package week_1;
 
 import java.util.ArrayList;
 
-public class Deparment {
+public class DeparmentDemo {
     private String depName;
     private ArrayList<Student> listStudent;
 
-    public Deparment(String depName) {
+    public DeparmentDemo(String depName) {
         this.depName = depName;
         this.listStudent = new ArrayList<>();
     }
